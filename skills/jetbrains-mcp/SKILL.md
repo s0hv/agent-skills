@@ -1,7 +1,7 @@
 ---
 name: jetbrains-mcp
-description: Use when a JetBrains IDE (IntelliJ, PyCharm, etc.) is available via its MCP server.
-  Lists every supported MCP tool with a short note on when to reach for it instead of a generic shell/grep/file equivalent.
+description: Use when analyzing the code, searching for strings, symbols or files, renaming symbols, listing project files,
+  executing commands in the projects context, and getting info for code symbols.
 ---
 
 # When to use
@@ -31,6 +31,7 @@ For other use cases, see if the tool name could fit the use-case and read the re
 Treat those situations as if you are not supposed to use those tools. If you
 still require the tool, ask the user for clarification.
 - Control the output manually to prevent the tool output from being too long or taking too long to process.
+- Line and column numbers are 1-based
 
 # Tools available
 The following sections either list tools explicitly or provide a short not on 
