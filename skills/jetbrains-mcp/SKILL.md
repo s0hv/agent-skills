@@ -55,10 +55,6 @@ Tools available:
 Database tools to interact with the database of a project.
 Only use this with permission as the tools could cause data loss.
 
-## reference/debugger-tools.md
-Tools to help read and manipulate an active debugger session. Only use when
-told that an active debugger session exists.
-
 ## reference/execution-tools.md
 Tools to run different run configurations. Use this only when the user 
 has asked to use run configurations.
